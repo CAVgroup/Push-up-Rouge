@@ -1,0 +1,134 @@
+[
+  {
+    "id": "novice_blade",
+    "name": "Iron Longsword",
+    "title": "Starter Blade",
+    "type": "sword",
+    "description": "A well-balanced standard forge blade. Delivers crisp directional slashes on push-up lockout.",
+    "baseDamage": 24,
+    "attackRange": 110,
+    "attackArc": 140,
+    "hitstopDuration": 0.045,
+    "critChance": 0.15,
+    "critMultiplier": 2.0,
+    "specialEffect": "standard",
+    "color": "#38bdf8",
+    "accentColor": "#bae6fd",
+    "iconSvg": "sword",
+    "requirement": {
+      "metric": "total_reps",
+      "threshold": 0,
+      "description": "Default weapon unlocked from start."
+    }
+  },
+  {
+    "id": "shadow_daggers",
+    "name": "Twin Viper Daggers",
+    "title": "High Cadence Blades",
+    "type": "daggers",
+    "description": "Ultra-light serrated twin blades. Fires rapid dual slashes with elevated 35% critical rate.",
+    "baseDamage": 18,
+    "attackRange": 90,
+    "attackArc": 160,
+    "hitstopDuration": 0.03,
+    "critChance": 0.35,
+    "critMultiplier": 2.2,
+    "specialEffect": "rapid_flurry",
+    "color": "#10b981",
+    "accentColor": "#6ee7b7",
+    "iconSvg": "sparkles",
+    "requirement": {
+      "metric": "total_reps",
+      "threshold": 5,
+      "description": "Complete 5 push-ups in your workout session."
+    }
+  },
+  {
+    "id": "iron_greatsword",
+    "name": "Executioner Cleaver",
+    "title": "Form Streak Heavy Blade",
+    "type": "greatsword",
+    "description": "Massive two-handed greatsword. Deals a 220° wide cleave through all clustered foes with heavy 0.08s hitstop crunch.",
+    "baseDamage": 52,
+    "attackRange": 145,
+    "attackArc": 220,
+    "hitstopDuration": 0.08,
+    "critChance": 0.20,
+    "critMultiplier": 2.5,
+    "specialEffect": "cleave",
+    "color": "#ef4444",
+    "accentColor": "#fca5a5",
+    "iconSvg": "flame",
+    "requirement": {
+      "metric": "streak",
+      "threshold": 10,
+      "description": "Achieve a continuous 10-rep push-up streak without breaking form."
+    }
+  },
+  {
+    "id": "thunder_hammer",
+    "name": "Stormcaller Warhammer",
+    "title": "High Intensity Relic",
+    "type": "hammer",
+    "description": "Infused with atmospheric lightning. On validated rep, calls down cascading chain lightning arcs between all enemies.",
+    "baseDamage": 38,
+    "attackRange": 130,
+    "attackArc": 180,
+    "hitstopDuration": 0.06,
+    "critChance": 0.25,
+    "critMultiplier": 2.4,
+    "specialEffect": "lightning_chain",
+    "color": "#facc15",
+    "accentColor": "#fef08a",
+    "iconSvg": "zap",
+    "requirement": {
+      "metric": "intensity_cadence",
+      "threshold": 25,
+      "description": "Maintain a fierce intensity pace of 25+ reps per minute for at least 3 reps."
+    }
+  },
+  {
+    "id": "aegis_bulwark",
+    "name": "Bulwark Shield & Spear",
+    "title": "Endurance Master",
+    "type": "shield_spear",
+    "description": "Tower shield paired with a thrusting spear. Bottom plank holds build barrier energy; lockout unleashes an armor-piercing thrust.",
+    "baseDamage": 42,
+    "attackRange": 150,
+    "attackArc": 110,
+    "hitstopDuration": 0.05,
+    "critChance": 0.18,
+    "critMultiplier": 2.0,
+    "specialEffect": "shield_barrier",
+    "color": "#3b82f6",
+    "accentColor": "#93c5fd",
+    "iconSvg": "shield",
+    "requirement": {
+      "metric": "total_reps",
+      "threshold": 20,
+      "description": "Accumulate 20 total lifetime push-ups."
+    }
+  },
+  {
+    "id": "void_katana",
+    "name": "Dimensional Void Katana",
+    "title": "Precision Masterpiece",
+    "type": "katana",
+    "description": "Forged at the boundary of reality. Deep <= 80° elbow push-ups slice through spacetime, instantly cutting all targets in line.",
+    "baseDamage": 60,
+    "attackRange": 180,
+    "attackArc": 260,
+    "hitstopDuration": 0.07,
+    "critChance": 0.40,
+    "critMultiplier": 3.0,
+    "specialEffect": "dimension_rift",
+    "color": "#a855f7",
+    "accentColor": "#e9d5ff",
+    "iconSvg": "compass",
+    "requirement": {
+      "metric": "perfect_reps",
+      "threshold": 6,
+      "description": "Perform 6 flawless 'PERFECT' form push-ups (deep >= 90° angle, controlled tempo)."
+    }
+  }
+]

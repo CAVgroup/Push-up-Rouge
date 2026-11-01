@@ -1,0 +1,139 @@
+[
+  {
+    "id": "goblin_swarmer",
+    "name": "Dungeon Imp",
+    "lore": "Ferocious skittering imps drawn to the rhythmic thud of push-ups on the stone floor.",
+    "hp": 35,
+    "speed": 85,
+    "attackDamage": 8,
+    "attackRange": 36,
+    "attackWindup": 0.45,
+    "attackCooldown": 1.2,
+    "behavior": "swarmer",
+    "visual": {
+      "primaryColor": "#ef4444",
+      "accentColor": "#f87171",
+      "glowColor": "#dc2626",
+      "scale": 1.0,
+      "shape": "beast",
+      "hasHorns": true
+    },
+    "telegraph": {
+      "type": "circle",
+      "color": "rgba(239, 68, 68, 0.4)",
+      "radius": 38
+    },
+    "dropXP": 15,
+    "dropEssence": 4
+  },
+  {
+    "id": "skeleton_spearman",
+    "name": "Crypt Hoplite",
+    "lore": "An ancient skeletal sentry wielding a rusted spear, punishing sluggish posture.",
+    "hp": 55,
+    "speed": 60,
+    "attackDamage": 14,
+    "attackRange": 68,
+    "attackWindup": 0.65,
+    "attackCooldown": 1.6,
+    "behavior": "charger",
+    "visual": {
+      "primaryColor": "#e2e8f0",
+      "accentColor": "#94a3b8",
+      "glowColor": "#38bdf8",
+      "scale": 1.15,
+      "shape": "undead",
+      "hasShield": false
+    },
+    "telegraph": {
+      "type": "line",
+      "color": "rgba(56, 189, 248, 0.5)",
+      "range": 85
+    },
+    "dropXP": 25,
+    "dropEssence": 8
+  },
+  {
+    "id": "shadow_kiter",
+    "name": "Spectre of Fatigue",
+    "lore": "A drifting wraith that feeds on lactic acid, hurling void bolts from safe distance.",
+    "hp": 40,
+    "speed": 75,
+    "attackDamage": 12,
+    "attackRange": 160,
+    "attackWindup": 0.7,
+    "attackCooldown": 2.0,
+    "behavior": "kiter",
+    "visual": {
+      "primaryColor": "#818cf8",
+      "accentColor": "#c084fc",
+      "glowColor": "#6366f1",
+      "scale": 1.1,
+      "shape": "spectre",
+      "hasWings": true
+    },
+    "telegraph": {
+      "type": "circle",
+      "color": "rgba(168, 85, 247, 0.45)",
+      "radius": 45
+    },
+    "dropXP": 30,
+    "dropEssence": 10
+  },
+  {
+    "id": "abyssal_gargoyle",
+    "name": "Granite Gargoyle",
+    "lore": "A winged stone construct that circles like a vulture before diving inward.",
+    "hp": 80,
+    "speed": 95,
+    "attackDamage": 18,
+    "attackRange": 42,
+    "attackWindup": 0.55,
+    "attackCooldown": 1.8,
+    "behavior": "flanker",
+    "visual": {
+      "primaryColor": "#64748b",
+      "accentColor": "#cbd5e1",
+      "glowColor": "#f59e0b",
+      "scale": 1.25,
+      "shape": "gargoyle",
+      "hasWings": true,
+      "hasHorns": true
+    },
+    "telegraph": {
+      "type": "cone",
+      "color": "rgba(245, 158, 11, 0.45)",
+      "radius": 50
+    },
+    "dropXP": 45,
+    "dropEssence": 15
+  },
+  {
+    "id": "iron_golem_boss",
+    "name": "Vulcan Forge Titan",
+    "lore": "The indomitable guardian of the deep workout catacombs. Slams the ground with tectonic power.",
+    "hp": 320,
+    "speed": 45,
+    "attackDamage": 28,
+    "attackRange": 80,
+    "attackWindup": 0.9,
+    "attackCooldown": 2.5,
+    "behavior": "boss",
+    "visual": {
+      "primaryColor": "#f97316",
+      "accentColor": "#fbbf24",
+      "glowColor": "#ea580c",
+      "scale": 1.9,
+      "shape": "demon",
+      "hasHorns": true,
+      "hasShield": true
+    },
+    "telegraph": {
+      "type": "circle",
+      "color": "rgba(234, 88, 12, 0.6)",
+      "radius": 95
+    },
+    "dropXP": 150,
+    "dropEssence": 60
+  }
+]

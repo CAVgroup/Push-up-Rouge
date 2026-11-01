@@ -1,0 +1,6 @@
+{
+  "name": "Push-Up Rogue: Iron Dungeon",
+  "description": "An event-driven 2D rogue-like RPG powered by real-world push-ups with camera ML Kit pose tracking, modular JSON enemies, and weapon mastery.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
